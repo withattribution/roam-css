@@ -125,13 +125,16 @@ span.bp3-icon-small.bp3-icon-star {
     min-width: 200px;
     border-radius: 3px;
 }
+
+/* dot as a reference block */
+
 .rm-block-ref::before {
     content: '';
-    display: inline-block;
-    width: 10px;
+    width: 8px;
+    height: 8px;
     border-radius: 40px;
-    height: 10px;
-    background: #ff913c;
+    background: #11c3c6;
+    display: inline-block;
     margin-right: 5px;
 }
 .rm-block-ref {
@@ -249,6 +252,18 @@ span.rm-page-ref {
 
 /* Custom data tags */
 
+/* testing custom tags and custom pages */
+span.rm-page-ref[data-tag="TestingDot"]:before {
+    content:"";
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background: #5ec6c8;
+    display:inline-block;
+    margin:0 4px;
+}
+
+
 /* Custom tags for input/information gathering */
 
 /* */
@@ -274,16 +289,6 @@ span.rm-page-ref[data-tag="Idea"] {
     padding: 3px 3px;
     font-weight: 600;
     line-height: 1.4em;
-}
-
-span.rm-page-ref[data-tag="TestingDot"]:before {
-    content:"";
-    width:8px;
-    height:8px;
-    border-radius:50%;
-    background: orange;
-    display:inline-block;
-    margin:0 4px;
 }
 
 span.rm-page-ref[data-tag="Open Research"] {
