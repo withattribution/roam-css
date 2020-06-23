@@ -99,8 +99,10 @@ span.bp3-icon-small.bp3-icon-star {
 .controls .simple-bullet-outer .simple-bullet-inner {
     background-color: #e5e9f2;
 }
+
+/* indention reference */
 .block-border-left {
-    border-left: 1px solid #fff;
+    border-left: 1px solid #cacbd0b3;
 }
 .kanban-board {
     background-color: #fff;
@@ -268,7 +270,7 @@ span.rm-page-ref[data-tag="TestingDot"]:before {
 
 /* */
 
-span.rm-page-ref[data-tag="Input"] {
+span.rm-page-ref[data-tag="input"] {
     background: #81D5ED;
     color: white;
     padding: 3px 5px;
@@ -276,7 +278,9 @@ span.rm-page-ref[data-tag="Input"] {
     font-weight: 500;
 }
 
-span.rm-page-ref[data-tag="Unpack"] {
+
+
+span.rm-page-ref[data-tag="unpack"] {
     background: #2ec3ee;
     color: white;
     padding: 3px 7px;
@@ -284,11 +288,13 @@ span.rm-page-ref[data-tag="Unpack"] {
     font-weight: 500;
 }
 
-span.rm-page-ref[data-tag="Idea"] {
+span.rm-page-ref[data-tag="idea"] {
     color: #81D5ED;
-    padding: 3px 3px;
-    font-weight: 600;
+    padding: 2px 2px;
+    font-weight: 400;
     line-height: 1.4em;
+    border-radius: .3em;
+    border: .15em solid #81d5ed;
 }
 
 span.rm-page-ref[data-tag="Open Research"] {
