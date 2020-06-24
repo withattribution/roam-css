@@ -305,7 +305,7 @@ span.rm-page-ref[data-tag="idea"] {
     border: .15em solid #81d5ed;
 }
 
-span.rm-page-ref[data-tag="Open Research"] {
+span.rm-page-ref[data-tag="research"] {
     background: #5ec6c8;
     color: white;
     padding: 3px 7px;
@@ -313,7 +313,7 @@ span.rm-page-ref[data-tag="Open Research"] {
     font-weight: 500;
 }
 
-span.rm-page-ref[data-tag="Literature Notes"] {
+span.rm-page-ref[data-tag="In-Depth Exploration"] {
     background: #9769FF;
     color: white;
     padding: 3px 7px;
