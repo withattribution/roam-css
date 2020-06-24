@@ -157,9 +157,11 @@ span.bp3-icon-small.bp3-icon-star {
 .check-container input:checked ~ .checkmark:after {
     border-color: #fff;
 }
+
+/* individual block styling */
 .rm-reference-item {
     margin-top: 8px;
-    border-radius: 6px;
+    border-radius: 3px;
     border: 1px solid #e4e9ee;
     margin-right: 8px;
     flex: 1 1 100%;
@@ -191,6 +193,12 @@ a {
 #intercom-container {
     display: none;
 }
+
+/* soften main article text, write in blue for a while */
+.roam-body .roam-app .roam-main .roam-article {
+   color: #5cb3f3;
+}
+
 .roam-body .roam-app .roam-sidebar-container {
     background-color: white;
     border-right: 1px #eee solid;
